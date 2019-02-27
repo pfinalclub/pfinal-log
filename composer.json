@@ -1,0 +1,41 @@
+{
+    "name": "nancheng/pfinal-log",
+    "authors": [
+        {
+            "name": "南丞",
+            "email": "Lampxiezi@163.com",
+            "homepage": "http://friday-go.cc/"
+        }
+    ],
+    "homepage": "https://github.com/pfinalclub/pfinal-log",
+    "license": "MIT",
+    "keywords": [
+        "pfinal",
+        "南丞",
+        "Q哥",
+        "php-log",
+        "curl",
+        "pfinal-log"
+    ],
+    "autoload": {
+        "psr-4": {
+            "pf\\log\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.2"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "nancheng/pfinal-config": "dev-master",
+        "nancheng/pfinal-diropt": "dev-master"
+    }
+}
